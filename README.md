@@ -1,4 +1,4 @@
-# Lumencraft — native HTML clone
+# Lumencraft — native HTML site
 
 ![Lumencraft homepage — full-page scroll preview](docs/preview/homepage.gif)
 
@@ -39,7 +39,7 @@ Copy lives directly in the HTML files. Shared header, footer, chat widget and co
 - Statement & headline text lights up word by word as you scroll; footer statement lights up in sequence.
 - Service rows: sticky media + entrance clip; growth panel with count-ups + donut; animated AI panel.
 - Hub window tilts while scrolling; like buttons on work cards (saved in localStorage).
-- **Sound:** only the "reel" video in the "Based in…" section (mute/unmute button), same as the reference.
+- **Sound:** only the "reel" video in the "Based in…" section (mute/unmute button).
 - Chat widget (label changes with scroll position, typing indicator, simulated replies; no backend).
 - Cookie banner + Consent Preferences modal, mobile drawer menu (focus trap, Esc), FAQ accordions.
 - Contact form: progress %, validation, phone formatting, success state (no data is sent).
@@ -52,15 +52,6 @@ Copy lives directly in the HTML files. Shared header, footer, chat widget and co
 Brand "Lumencraft", logo, address, phone (954) 555-0148, email hello@lumencraft.studio, team names,
 client/project names, case study numbers, testimonials, and the legal text (privacy/terms/cookie are demo text).
 All photos are from Unsplash; the video uses Mixkit clips + Mixkit music.
-
-## Differences from the reference
-
-- All copy, logo, client names and photos are original/replacements (not copied).
-- Canvas effects (globe, particles, starfield) were rewritten independently based on behavior analysis; the character matches, but it is not pixel-identical.
-- The reference has ~200 URLs (47 projects, 34 case studies, ~100 articles); here each template is represented by a smaller amount of fictional data.
-- The reference chat uses an AI backend; here replies are rule-based (offline).
-- The reference booking uses an embedded Google Calendar; here a custom picker was built.
-- The Awwwards badge was replaced with a neutral "Featured" ribbon.
 
 ## Regenerating the preview
 
